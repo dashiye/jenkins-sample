@@ -14,7 +14,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: huheng01/jenkins-demo:<BUILD_TAG>
+      - image: xianchao/jenkins:v1
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
